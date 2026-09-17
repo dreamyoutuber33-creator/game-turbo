@@ -1,0 +1,6 @@
+{
+  "name": "GAME TURBO PRO",
+  "description": "Professional Android Gaming Booster app with gaming dashboard, direct game launching, DPI tools, gaming profiles, device monitoring, and official Android settings shortcuts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_amoled"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/iv_boost_summary_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="Boost Completed"
+        android:src="@drawable/ic_bolt"
+        app:tint="@color/accent_cyan" />
+
+    <TextView
+        android:id="@+id/tv_boost_summary_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="TURBO BOOST APPLIED"
+        android:textColor="@color/accent_cyan"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_boost_summary_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:background="@color/border_subtle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_boost_stat_memory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_ram"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/accent_lime"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_boost_stat_gaming_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_speed"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/accent_cyan"
+            android:gravity="center_vertical"
+            android:text="Gaming Mode: Screen Awake &amp; Immersive active"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_boost_stat_network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableStart="@drawable/ic_wifi"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/accent_purple"
+            android:gravity="center_vertical"
+            android:text="Network: Latency check complete"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_dismiss_boost"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/accent_cyan"
+        android:text="DONE"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+</LinearLayout>

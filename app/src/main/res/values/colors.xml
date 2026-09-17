@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base AMOLED Dark Theme Colors -->
+    <color name="bg_amoled">#07090E</color>
+    <color name="bg_card">#0F131E</color>
+    <color name="bg_card_elevated">#151B2A</color>
+    <color name="bg_card_highlight">#1C253B</color>
+    <color name="border_subtle">#212C42</color>
+    <color name="border_glow_cyan">#3300F0FF</color>
+    <color name="border_glow_purple">#33B026FF</color>
+
+    <!-- Neon Accents -->
+    <color name="accent_cyan">#00F0FF</color>
+    <color name="accent_cyan_dark">#008899</color>
+    <color name="accent_lime">#00FF66</color>
+    <color name="accent_purple">#B026FF</color>
+    <color name="accent_orange">#FF7700</color>
+    <color name="accent_red">#FF1E56</color>
+    <color name="accent_yellow">#FFD600</color>
+
+    <!-- Text and States -->
+    <color name="text_primary">#F4F7FC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_dim">#55637D</color>
+    <color name="text_accent">#00F0FF</color>
+
+    <!-- Status Colors -->
+    <color name="status_good">#00FF66</color>
+    <color name="status_warning">#FFB800</color>
+    <color name="status_critical">#FF1E56</color>
+
+    <!-- Navigation & Overlays -->
+    <color name="nav_bar_bg">#090C14</color>
+    <color name="bg_nav_bar">#090C14</color>
+    <color name="overlay_dark">#D005070B</color>
+    <color name="ripple_cyan">#3300F0FF</color>
+    <color name="glow_cyan">#3300F0FF</color>
+
+    <!-- Android standard names -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
